@@ -1,0 +1,345 @@
+body{
+    margin: 0;
+    background: #FEBB41;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.container{
+    background: linear-gradient(to bottom, #F4ECE1, #FCFBF7);
+    border-radius: 24px;
+    margin: 25px 25px;
+    overflow: hidden;
+}
+
+header{
+    margin: 0;
+    padding: 46px 123px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 32px;
+    display: flex;
+}
+
+.naming{
+    width: 95px;
+    font-size: 30px;
+    margin: 0 100px 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.menu a{
+    margin: 0 3px;
+    text-decoration: none;
+    color: black;
+    transition: ease 0.5s;
+}
+
+.menu a:hover{
+    color:#FEBB41;
+}
+
+
+input{
+    width: 400px;
+    padding: 18px 32px;
+    background: #f8ead420;
+    outline: none;
+    border: 0;
+    border-radius: 35px;
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.3);
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #000000;
+    font-size: 22px;
+    margin-left: 100px;
+
+}
+
+input::placeholder{
+    color: black;
+
+}
+button{
+    position: absolute;
+    right: 180px;
+    top: 94px;
+    background: #f8ead420;
+    border: 0;
+}
+.around_img{
+    position: absolute;
+    right: 148px;
+    top: 62px;
+}
+.two{
+    position: absolute;
+    right: 177px;
+    top: 83px;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.prosto{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 123px;
+    width: 600px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.prosto h1{
+    margin: 0;
+    display: flex;
+    font-size: 125px;
+    font-weight: 700;
+    color: #FF7E00;
+    margin-right: 10px;
+}
+
+.prosto h2{
+    margin: 0;
+    display: flex;
+    font-size: 52px;
+    font-weight: 700;
+    color: #2F2F2F;
+    line-height: 1.05;
+}
+
+.text{
+    display: flex;
+    margin-left: 123px;
+    width: 560px;
+    color: #909090;
+}
+
+.buttons{
+    display: flex;
+    width: 400px;
+    margin: 50px 123px;
+    align-items: center;
+}
+
+.button_one{
+    background: #2F2F2F;
+    border-radius: 45px;
+    padding: 18px 35px;
+    color: #F4ECE1;
+}
+
+.pause{
+    margin: 0 30px;
+    width: 21px;
+}
+
+.button_two{
+    color: #2F2F2F;
+}
+
+.numbers{
+    display: flex;
+    padding-right: 15px;
+}
+
+@media (max-width: 1100px){
+    header{
+        padding: 30px 80px;
+    }
+    .icon{
+        width: 20px;
+    }
+    
+    .naming{
+        width: 70px;
+        font-size: 20px;
+        margin: 0 28px 0 8px;
+    }
+
+    .prosto h1{
+        font-size: 78px;
+    }
+    
+    .prosto h2{
+        font-size: 38px;
+    }
+    .menu{
+        width: 400px;
+    }
+    
+    .menu a{
+        font-size: 16px;
+    }
+    
+    input{
+        margin: 0 10px;
+        width: 340px;
+        padding: 10px 20px;
+    }
+    
+    button{
+        right: 126px;
+        top: 74px;
+    }
+    .around_img{
+        right: 90px;
+        top: 42px;
+    }
+    .two{
+        right: 119px;
+        top: 64px;
+        font-size: 10px;
+        font-weight: 300;
+    }
+    
+    .text{
+        margin: 0 100px;
+        font-size: 14px;
+        width: 450px;
+    }
+    
+    .buttons{
+        width: 400px;
+        margin: 30px 100px;
+    }
+    
+    .button_one{
+        border-radius: 40px;
+        padding: 14px 30px;
+        font-size: 16px;
+    }
+    
+    .pause{
+        margin: 0 20px;
+        width: 18px;
+        
+    }
+    
+    .button_two{
+        font-size: 16px;
+    }
+    
+    .numbers{
+        flex-direction: column;
+    }
+    
+    .food_img{
+        width: 700px;
+    }
+    
+}
+
+@media (max-width: 600px){
+    header{
+        align-items: center;
+        flex-direction: column;
+        padding: 20px 50px;
+        row-gap: 30px;
+    }
+    
+    .icon{
+        width: 20px;
+    }
+    
+    .naming{
+        width: 50px;
+        font-size: 16px;
+        margin: 0 20px 0 6px;
+    }
+
+    .prosto h1{
+        font-size: 54px;
+    }
+    
+    .prosto h2{
+        font-size: 26px;
+    }
+    
+    
+    .menu{
+        width: 300px;
+    }
+    
+    .menu a{
+        font-size: 20px;
+    }
+    
+    input{
+        margin: 0 5px;
+        width: 175px;
+        padding: 2px 16px; 
+    }
+    
+    button{
+        right: 52px;
+        top: 52px;
+        width: 20px;
+    }
+    input::placeholder{
+        font-size: 14px;
+    }
+    .around_img{
+        right: 34px;
+        top: 42px;
+        width: 30px;
+    }
+    .two{
+        right: 47px;
+        top: 52px;
+        font-size: 6px;
+        font-weight: 300;
+    }
+    .text{
+        margin: 0 80px;
+        font-size: 12px;
+        width: 350px;
+    }
+    
+    .buttons{
+        width: 300px;
+        margin: 20px 80px;
+    }
+    
+    .button_one{
+        border-radius: 35px;
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    .pause{
+        margin: 0 15px;
+        width: 18px;
+        
+    }
+    
+    .button_two{
+        font-size: 14px;
+    }
+    
+    .numbers{
+        flex-direction: column;
+    }
+    
+    .food_img{
+        width: 400px;
+        padding: 2px 10px;
+    }
+}
+
+
